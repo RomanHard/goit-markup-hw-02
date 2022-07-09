@@ -55,6 +55,12 @@ a {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
+}
+
+.page-header {
+}
+
+.navigation {
 }
