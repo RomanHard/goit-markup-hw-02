@@ -63,6 +63,14 @@ a {
   text-decoration: none;
 }
 
+:root {
+  --one-text-color: #212121;
+  --two-text-color: #2196f3;
+  --three-text-color: #000000;
+  --fout-text-color: #757575;
+  --five-text-color: #ffffff;
+}
+
 /* =======Header======== */
 .menu-link {
   font-weight: 500;
@@ -70,11 +78,11 @@ a {
   line-height: 1.15;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--one-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--two-text-color);
 }
 
 .logo-span {
@@ -84,7 +92,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: var(--three-text-color);
 }
 
 .logo {
@@ -94,7 +102,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--two-text-color);
 }
 
 .menu {
@@ -109,12 +117,12 @@ a {
   line-height: 1.15;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--fout-text-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--two-text-color);
 }
 
 /* =======/Header======== */
@@ -130,8 +138,8 @@ a {
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--five-text-color);
+  background: var(--two-text-color);
 }
 
 .motto {
@@ -141,7 +149,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--five-text-color);
 }
 /*задал цвет и размер что бы текст было видно,потом уберу 
 как дойдет к разметке на странице */
@@ -159,11 +167,10 @@ a {
   line-height: 1.15;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--one-text-color);
 }
 
 .media-list {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.74;
   letter-spacing: 0.03em;
@@ -178,7 +185,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--one-text-color);
 }
 
 /* =======/MainSection======== */
@@ -191,12 +198,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--one-text-color);
 }
 
 .filter-list:focus,
 .filter-list:hover {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--two-text-color);
+  color: var(--five-text-color);
 }
 /* =======/PORTFOLIO======== */
