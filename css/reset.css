@@ -20,6 +20,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', 'sans-serif';
 }
 /*
     6. Improve media defaults
@@ -62,11 +63,11 @@ a {
   text-decoration: none;
 }
 
+/* =======Header======== */
 .menu-link {
-  font-family: 'Roboto', 'sans-serif';
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -75,17 +76,12 @@ a {
 .menu-link:focus {
   color: #2196f3;
 }
-. .page-header {
-}
-
-.navigation {
-}
 
 .logo-span {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 
   color: #000000;
@@ -95,7 +91,7 @@ a {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 
   color: #2196f3;
@@ -108,19 +104,81 @@ a {
 }
 
 .contact-phone-number {
-  font-family: 'Roboto', 'sans-serif';
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 
   color: #757575;
 }
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 
+/* =======/Header======== */
+
+/* =======HERO======== */
 .modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: #2196f3;
 }
+
+.motto {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+/*задал цвет и размер что бы текст было видно,потом уберу 
+как дойдет к разметке на странице */
+.container-hero {
+  height: 600px;
+  background: #2f303a;
+}
+
+/* =======/HERO======== */
+
+/* =======MainSection======== */
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.media-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.74;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.suptitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* =======/MainSection======== */
