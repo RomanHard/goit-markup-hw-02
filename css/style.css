@@ -47,10 +47,11 @@ body {
 a:current {
 	color: var(--two-text-color);
 }
-*/
+
 .link:current {
 	color: var(--two-text-color);
 }
+*/
 
 .filter-list:current {
 	color: var(--two-text-color);
