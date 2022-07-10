@@ -39,10 +39,15 @@ body {
 	color: var(--one-text-color);
 }
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus,
+.menu-link:current {
 	color: var(--two-text-color);
 }
-
+/*
+a:current {
+	color: var(--two-text-color);
+}
+*/
 .link:current {
 	color: var(--two-text-color);
 }
@@ -131,9 +136,17 @@ body {
 	color: var(--one-text-color);
 }
 
+.advantage-two {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--one-text-color);
+}
+
 .media-list {
-	font-size: 14px;
-	line-height: 1.74;
+	font-size: 16px;
+	line-height: 2.25;
 	letter-spacing: 0.03em;
 
 	color: #757575;
