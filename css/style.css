@@ -43,7 +43,7 @@ body {
 	color: var(--two-text-color);
 }
 
-.menu-list:current {
+.link:current {
 	color: var(--two-text-color);
 }
 
