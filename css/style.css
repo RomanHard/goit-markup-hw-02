@@ -1,162 +1,160 @@
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
 }
 
 :root {
-  --one-text-color: #212121;
-  --two-text-color: #2196f3;
-  --three-text-color: #000000;
-  --fout-text-color: #757575;
-  --five-text-color: #ffffff;
+	--one-text-color: #212121;
+	--two-text-color: #2196f3;
+	--three-text-color: #000000;
+	--fout-text-color: #757575;
+	--five-text-color: #ffffff;
 }
 
+body {
+	font-family: "Roboto", "sans-serif";
+	color: var(--five-text-color);
+}
 /* =======Header======== */
 .menu-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.15;
+	letter-spacing: 0.02em;
 
-  color: var(--one-text-color);
+	color: var(--one-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--two-text-color);
+	color: var(--two-text-color);
 }
 
 .logo-span {
-  font-family: 'Raleway', 'sans-serif';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+	font-family: "Raleway", "sans-serif";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
 
-  color: var(--three-text-color);
+	color: var(--three-text-color);
 }
 
 .logo {
-  font-family: 'Raleway', 'sans-serif';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+	font-family: "Raleway", "sans-serif";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
 
-  color: var(--two-text-color);
-}
-
-.menu {
-}
-
-.menu-list {
+	color: var(--two-text-color);
 }
 
 .contact-phone-number {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.15;
+	letter-spacing: 0.02em;
 
-  color: var(--fout-text-color);
+	color: var(--fout-text-color);
 }
 
 .link:hover,
 .link:focus {
-  color: var(--two-text-color);
+	color: var(--two-text-color);
 }
 
 /* =======/Header======== */
 
 /* =======HERO======== */
 .modal-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.85;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.85;
+	letter-spacing: 0.06em;
+	cursor: pointer;
+	font-family: inherit;
 
-  color: var(--five-text-color);
-  background: var(--two-text-color);
+	color: var(--five-text-color);
+	background: var(--two-text-color);
+}
+
+.modal-btn:hover {
+	background-color: #188ce8;
 }
 
 .motto {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.37;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--five-text-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.37;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--five-text-color);
 }
-/*задал цвет и размер что бы текст было видно,потом уберу 
-как дойдет к разметке на странице */
+
 .container-hero {
-  height: 600px;
-  background: #2f303a;
+	background: #2f303a;
 }
 
 /* =======/HERO======== */
 
 /* =======MainSection======== */
 .advantage {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-
-  color: var(--one-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.15;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--one-text-color);
 }
 
 .media-list {
-  font-size: 14px;
-  line-height: 1.74;
-  letter-spacing: 0.03em;
+	font-size: 14px;
+	line-height: 1.74;
+	letter-spacing: 0.03em;
 
-  color: #757575;
+	color: #757575;
 }
 
 .suptitle {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
 
-  color: var(--one-text-color);
+	color: var(--one-text-color);
 }
 
 /* =======/MainSection======== */
 
 /* =======PORTFOLIO======== */
 .filter-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
 
-  color: var(--one-text-color);
+	color: var(--one-text-color);
 }
 
 .filter-list:focus,
 .filter-list:hover {
-  background: var(--two-text-color);
-  color: var(--five-text-color);
+	background: var(--two-text-color);
+	color: var(--five-text-color);
 }
 /* =======/PORTFOLIO======== */
